@@ -1,8 +1,8 @@
-import { parseBCAStatement } from './bank_report_parser/bca_parser';
-import { parseMandiriStatement } from './bank_report_parser/mandiri_parser';
-import { parseMandiriCCStatement } from './bank_report_parser/mandiri_cc_parser';
+import { parseBCAStatement } from './parser/bca_parser';
+import { parseMandiriStatement } from './parser/mandiri_parser';
+import { parseMandiriCCStatement } from './parser/mandiri_cc_parser';
 
-export default {
+export {
     parseBCAStatement,
     parseMandiriCCStatement,
     parseMandiriStatement,

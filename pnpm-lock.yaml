@@ -21,8 +21,8 @@ dependencies:
     specifier: ^29.7.0
     version: 29.7.0(@types/node@20.11.24)(ts-node@10.9.2)
   pdfjs-dist:
-    specifier: ^4.0.379
-    version: 4.0.379
+    specifier: ^3.11.174
+    version: 3.11.174
   ts-jest:
     specifier: ^29.1.2
     version: 29.1.2(@babel/core@7.24.0)(babel-jest@29.7.0)(jest@29.7.0)(typescript@5.3.3)
@@ -4158,8 +4158,8 @@ packages:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
     dev: true
 
-  /pdfjs-dist@4.0.379:
-    resolution: {integrity: sha512-6H0Gv1nna+wmrr3CakaKlZ4rbrL8hvGIFAgg4YcoFuGC0HC4B2DVjXEGTFjJEjLlf8nYi3C3/MYRcM5bNx0elA==}
+  /pdfjs-dist@3.11.174:
+    resolution: {integrity: sha512-TdTZPf1trZ8/UFu5Cx/GXB7GZM30LT+wWUNfsi6Bq8ePLnb+woNKtDymI2mxZYBpMbonNFqKmiz684DIfnd8dA==}
     engines: {node: '>=18'}
     optionalDependencies:
       canvas: 2.11.2
