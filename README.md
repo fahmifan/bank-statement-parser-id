@@ -4,7 +4,38 @@ This npm package is designed to parse Indonesian bank PDF statements, extracting
 
 ## Installation
 
-TBD
+```
+npm install @fahmifan/bank-pdf-statement-parser-id
+```
+
+## Usage
+```tsx
+import { parseBCAStatement } from "@fahmifan/bank-statement-parser-id";
+
+async function parse(file: File) {
+    const buf = await file.arrayBuffer()
+    await parseBCAStatement(
+        buf,
+        askPasswordPrompt,
+        askRetryPasswordPrompt,
+    );
+}
+
+
+function askPasswordPrompt(): string {
+    const pass = window.prompt(
+        "The PDF is password protected. Please enter password to continue.",
+    );
+    return pass || "";
+}
+
+function askRetryPasswordPrompt(): string {
+    const pass = window.prompt(
+        "The password is incorrect. Please enter the correct password to continue.",
+    );
+    return pass || "";
+}
+```
 
 ## Supported Banks
 
