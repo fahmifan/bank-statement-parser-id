@@ -37,6 +37,8 @@ function askRetryPasswordPrompt(): string {
 }
 ```
 
+Example project: [bank-statement-parser-example](https://github.com/fahmifan/bank-statement-parser-example)
+
 ## Supported Banks
 
 - Bank Mandiri
