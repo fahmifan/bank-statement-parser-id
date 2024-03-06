@@ -1,6 +1,7 @@
 {
-  "name": "bank-statement-parser",
+  "name": "bank-statement-parser-id",
   "version": "1.0.0",
+  "maintainers": ["@fahmifan"],
   "description": "",
   "main": "dist/index.js",
   "scripts": {
